@@ -9,14 +9,12 @@ public static void isPrime(int num) {
         IO.println(num + " is not a prime number.");
         return;
     }
-    int count = 0;
+
     for (int i = 2; i * i <= num; i++)
         if (num % i == 0){
             IO.println(num + " is not a prime number.");
             return;
         }
-            
-    if (count == 0)
-        IO.println(num + " is a prime number.");
-    
+
+    IO.println(num + " is a prime number.");
 }
