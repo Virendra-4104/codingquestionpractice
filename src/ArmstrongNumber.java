@@ -13,7 +13,7 @@ public static boolean isArmstrong(int number) {
     if(number == 0)
         return true;
 
-    int temp = number, count = 0,remainder = 0,sum = 0;
+    int temp = number, count = 0,remainder,sum = 0;
     while (temp > 0) {
         temp /= 10;
         count++;

@@ -21,7 +21,7 @@ public static boolean isArmstrong(long number){
         return true;
 
                 
-    long temp = number,remainder = 0,sum = 0;
+    long temp = number,remainder,sum = 0;
     int count = 0 ;
     while (temp > 0) {
         temp /= 10;
